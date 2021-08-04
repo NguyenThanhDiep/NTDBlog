@@ -22,6 +22,10 @@ lib-cov
 coverage
 *.lcov
 
+.vs/
+API/.vs/
+API/API/obj/
+
 # nyc test coverage
 .nyc_output
 
@@ -102,3 +106,45 @@ dist
 
 # TernJS port file
 .tern-port
+
+# From .NET Core 3.0 you can use the command: `dotnet new gitignore` to generate a customizable .gitignore file
+
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+**/.suo
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+**/.vs/
+
+**/API/.vs/**
+**/API/API/obj/**
+API/.vs/API/DesignTimeBuild/.dtbcache.v2
+API/.vs/API/v16/.suo
+API/API/obj/Debug/netcoreapp3.1/API.csproj.AssemblyReference.cache
